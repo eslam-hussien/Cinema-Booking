@@ -1,0 +1,349 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Home || C4U</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/jquery-func.js"></script>
+<!--[if IE 6]><link rel="stylesheet" href="css/ie6.css" type="text/css" media="all" /><![endif]-->
+</head>
+<body>
+<!-- START PAGE SOURCE -->
+<div id="shell">
+  <div id="header">
+    <h1 id="logo">C4U</h1>
+	  <button class="open-button" onclick="openForm()">Login</button>
+
+<div class="form-popup" id="myForm" >
+  <form action="file:///C:/Users/Eslam/Desktop/login.php" class="form-container">
+    <h1>Login</h1>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit" class="btn">Login</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+	  
+    <div class="social">
+		
+		<span>FOLLOW US ON:</span>
+      <ul>
+        <li><a class="twitter" href="#">twitter</a></li>
+        <li><a class="facebook" href="#">facebook</a></li>
+        <li><a class="vimeo" href="#">vimeo</a></li>
+        <li><a class="rss" href="#">rss</a></li>
+      </ul>
+    </div>
+    <div id="navigation">
+      <ul>
+        <li><a class="active" href="#">HOME</a></li>
+        <li><a href="#" onClick="return openNews(event);">NEWS</a></li>
+     	<li><a href="#" onClick="return openNews(event);">COMING SOON</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </div>
+    <div id="sub-navigation">
+      <ul>
+        <li><a href="#">SHOW ALL</a></li>
+        <li><a href="#" onClick="return openLatest(event);">LATEST TRAILERS</a></li>
+        <li><a href="#" onClick="return openToprated(event);">TOP RATED</a></li>
+        <li><a href="#" onClick="return openMostcommented(event);">MOST COMMENTED</a></li>
+      </ul>
+      <div id="search">
+        <form action="#" method="get" accept-charset="utf-8">
+          <label for="search-field">SEARCH</label>
+          <input type="text" name="search field" value="Enter search here" id="search-field" class="blink search-field"  />
+          <input type="submit" value="GO!" class="search-button" />
+        </form>
+      </div>
+    </div>
+  </div>
+  <div id="main">
+    <div id="content">
+      <div class="box">
+        <div id="lat" class="head">
+          <h2>LATEST TRAILERS</h2>
+          <p class="text-right"><a href="#">See all</a></p>
+        </div>
+        <div class="movie">
+          <div class="movie-image"> <span onclick="lightbox_open(event);" class="play"><span id="movie1" class="name">Avengers: Endgame</span></span> <a href="#"><img src="css/images/movie1.jpg" alt="" /></a> </div>
+          <div class="rating">
+            <p>RATING</p>
+            <div class="stars">
+              <div class="stars-in"> </div>
+            </div>
+            <span class="comments">312</span> </div>
+			<a href="booking.html"><img src="css/images/BOOK-NOW-BUTTON.png" height="85px"></a>
+ 
+        </div>
+        <div class="movie">
+          <div class="movie-image"> <span <span onclick="lightbox_open(event);" class="play"><span id="movie2" class="name">Hellboy</span></span> <a href="#"><img src="css/images/movie2.jpg" alt="" /></a> </div>
+          <div class="rating">
+            <p>RATING</p>
+            <div class="stars">
+              <div class="stars-in"> </div>
+            </div>
+            <span class="comments">221</span> </div>
+			<a href="booking.html"><img src="css/images/BOOK-NOW-BUTTON.png" height="85px"></a>
+
+        </div>
+        <div class="movie">
+          <div class="movie-image"> <span onclick="lightbox_open(event);" class="play"><span id="movie3" class="name">Godzilla: King of the Monsters</span></span> <a href="#"><img src="css/images/movie3.jpg" alt="" /></a> </div>
+          <div class="rating">
+            <p>RATING</p>
+            <div class="stars">
+              <div class="stars-in"> </div>
+            </div>
+            <span class="comments">159</span> </div>
+			<a href="booking.html"><img src="css/images/BOOK-NOW-BUTTON.png" height="85px"></a>
+
+        </div>
+        <div class="movie">
+          <div class="movie-image"> <span onclick="lightbox_open(event);" class="play"><span id="movie4" class="name">Men in Black: International</span></span> <a href="#"><img src="css/images/movie4.jpg" alt="" /></a> </div>
+          <div class="rating">
+            <p>RATING</p>
+            <div class="stars">
+              <div class="stars-in"> </div>
+            </div>
+            <span class="comments">152</span> </div>
+			<a href="booking.html"><img src="css/images/BOOK-NOW-BUTTON.png" height="85px"></a>
+        </div>
+        <div class="movie">
+          <div class="movie-image"> <span onclick="lightbox_open(event);" class="play"><span id="movie5" class="name">Toy Story 4</span></span> <a href="#"><img src="css/images/movie5.jpg" alt="" /></a> </div>
+          <div class="rating">
+            <p>RATING</p>
+            <div class="stars">
+              <div class="stars-in"> </div>
+            </div>
+            <span class="comments">126</span> </div>
+			<a href="booking.html"><img src="css/images/BOOK-NOW-BUTTON.png" height="85px"></a>
+
+        </div>
+        <div class="movie last">
+          <div class="movie-image"> <span onclick="lightbox_open(event);" class="play"><span id="movie6" class="name">Spider-Man: Far From Home</span></span> <a href="#"><img src="css/images/movie6.jpg" alt="" /></a> </div>
+          <div class="rating">
+            <p>RATING</p>
+            <div class="stars">
+              <div class="stars-in"> </div>
+            </div>
+            <span class="comments">124</span> </div>
+			<a href="booking.html"><img src="css/images/BOOK-NOW-BUTTON.png" height="85px"></a>
+
+        </div>
+        <div class="cl">&nbsp;</div>
+      </div>
+      <div class="box">
+        <div id="t" class="head">
+          <h2>TOP RATED</h2>
+          <p class="text-right"><a href="#">See all</a></p>
+        </div>
+        <div class="movie">
+          <div class="movie-image"> <span onclick="lightbox_open(event);" class="play"><span id="movie7" class="name">Us</span></span> <a href="#"><img src="css/images/movie7.jpg" alt="" /></a> </div>
+          <div class="rating">
+            <p>RATING</p>
+            <div class="stars">
+              <div class="stars-in"> </div>
+            </div>
+            <span class="comments">12</span> </div>
+			<a href="booking.html"><img src="css/images/BOOK-NOW-BUTTON.png" height="85px"></a>
+
+        </div>
+        <div class="movie">
+          <div class="movie-image"> <span onclick="lightbox_open(event);" class="play"><span id="movie8" class="name">Captain Marvel</span></span> <a href="#"><img src="css/images/movie8.jpg" alt="" /></a> </div>
+          <div class="rating">
+            <p>RATING</p>
+            <div class="stars">
+              <div class="stars-in"> </div>
+            </div>
+            <span class="comments">12</span> </div>
+			<a href="booking.html"><img src="css/images/BOOK-NOW-BUTTON.png" height="85px"></a>
+
+        </div>
+        <div class="movie">
+          <div class="movie-image"> <span onclick="lightbox_open(event);" class="play"><span id="movie9" class="name">Wonder Park</span></span> <a href="#"><img src="css/images/movie9.jpg" alt="" /></a> </div>
+          <div class="rating">
+            <p>RATING</p>
+            <div class="stars">
+              <div class="stars-in"> </div>
+            </div>
+            <span class="comments">12</span> </div>
+			<a href="booking.html"><img src="css/images/BOOK-NOW-BUTTON.png" height="85px"></a>
+
+        </div>
+        <div class="movie">
+          <div class="movie-image"> <span onclick="lightbox_open(event);" class="play"><span id="movie10" class="name">Joker</span></span> <a href="#"><img src="css/images/movie10.jpg" alt="" /></a> </div>
+          <div class="rating">
+            <p>RATING</p>
+            <div class="stars">
+              <div class="stars-in"> </div>
+            </div>
+            <span class="comments">12</span> </div>
+			<a href="booking.html"><img src="css/images/BOOK-NOW-BUTTON.png" height="85px"></a>
+
+        </div>
+        <div class="movie">
+          <div class="movie-image"> <span onclick="lightbox_open(event);" class="play"><span id="movie11"  class="name">The Lego Movie 2: The Second Part</span></span> <a href="#"><img src="css/images/movie11.jpg" alt="" /></a> </div>
+          <div class="rating">
+            <p>RATING</p>
+            <div class="stars">
+              <div class="stars-in"> </div>
+            </div>
+            <span class="comments">12</span> </div>
+			<a href="booking.html"><img src="css/images/BOOK-NOW-BUTTON.png" height="85px"></a>
+
+        </div>
+        <div class="movie last">
+          <div class="movie-image"> <span onclick="lightbox_open(event);" class="play"><span id="movie12" class="name">
+Alita: Battle Angel </span></span> <a href="#"><img src="css/images/movie12.jpg" alt="" /></a> </div>
+          <div class="rating">
+            <p>RATING</p>
+            <div class="stars">
+              <div class="stars-in"> </div>
+            </div>
+            <span class="comments">12</span> </div>
+			<a href="booking.html"><img src="css/images/BOOK-NOW-BUTTON.png" height="85px"></a>
+
+        </div>
+        <div class="cl">&nbsp;</div>
+      </div>
+      <div class="box">
+        <div id="mo" class="head">
+          <h2>MOST COMMENTED</h2>
+          <p class="text-right"><a href="#">See all</a></p>
+        </div>
+        <div class="movie">
+          <div class="movie-image" > <span onclick="lightbox_open(event);"  class="play"><span id="movie13" class="name">Dumbo</span></span> <a href="#"><img src="css/images/movie13.jpg" alt="" /></a> </div>
+          <div class="rating">
+            <p>RATING</p>
+            <div class="stars">
+              <div class="stars-in"> </div>
+            </div>
+            <span class="comments">12</span> </div>
+			<a href="booking.html"><img src="css/images/BOOK-NOW-BUTTON.png" height="85px"></a>
+
+        </div>
+        <div class="movie">
+          <div class="movie-image" > <span onclick="lightbox_open(event);"  class="play"><span class="name" id="movie14" >Dark Phoenix </span></span> 
+			  <a href="#"><img src="css/images/movie14.jpg" alt="" /></a> </div>
+          <div class="rating">
+            <p>RATING</p>
+            <div class="stars">
+              <div class="stars-in"> </div>
+            </div>
+			  <div id="light">
+  <a class="boxclose" id="boxclose" onclick="lightbox_close();"></a>
+  <video id="VisaChipCardVideo" width="600" controls>
+      <source src="#" type="video/mp4">
+      <!--Browser does not support <video> tag -->
+    </video>
+</div>
+
+<div id="fade" onClick="lightbox_close();"></div>
+
+            <span class="comments">12</span> </div>
+			<a href="booking.html"><img src="css/images/BOOK-NOW-BUTTON.png" height="85px"></a>
+
+        </div>
+        <div class="movie">
+          <div class="movie-image"> <span onclick="lightbox_open(event);" class="play"><span id="movie15" class="name">Frozen II</span></span> <a href="#"><img src="css/images/movie15.jpg" alt="" /></a> </div>
+          <div class="rating">
+            <p>RATING</p>
+            <div class="stars">
+              <div class="stars-in"> </div>
+            </div>
+            <span class="comments">12</span> </div>
+			<a href="booking.html"><img src="css/images/BOOK-NOW-BUTTON.png" height="85px"></a>
+
+        </div>
+        <div class="movie">
+          <div class="movie-image"> <span onclick="lightbox_open(event);" class="play"><span id="movie16" class="name">Annabelle Comes Home</span></span> <a href="#"><img src="css/images/movie16.jpg" alt="" /></a> </div>
+          <div class="rating">
+            <p>RATING</p>
+            <div class="stars">
+              <div class="stars-in"> </div>
+            </div>
+            <span class="comments">12</span> </div>
+			<a href="booking.html"><img src="css/images/BOOK-NOW-BUTTON.png" height="85px"></a>
+
+        </div>
+        <div class="movie">
+          <div class="movie-image"> <span onclick="lightbox_open(event);" class="play"><span id="movie17" class="name">The Lion King </span></span> <a href="#"><img src="css/images/movie17.jpg" alt="" /></a> </div>
+          <div class="rating">
+            <p>RATING</p>
+            <div class="stars">
+              <div class="stars-in"> </div>
+            </div>
+            <span class="comments">12</span> </div>
+			<a href="booking.html"><img src="css/images/BOOK-NOW-BUTTON.png" height="85px"></a>
+
+        </div>
+        <div class="movie last">
+          <div class="movie-image"> <span onclick="lightbox_open(event);" class="play"><span id="movie18" class="name">The Secret Life of Pets 2</span></span> <a href="#"><img src="css/images/movie18.jpg" alt="" /></a> </div>
+          <div class="rating">
+            <p>RATING</p>
+            <div class="stars">
+              <div class="stars-in"> </div>
+            </div>
+            <span class="comments">12</span> </div>
+			<a href="booking.html"><img src="css/images/BOOK-NOW-BUTTON.png" height="85px"></a>
+
+        </div>
+        <div class="cl">&nbsp;</div>
+      </div>
+    </div>
+    <div id="news">
+      <div class="head">
+        <h3>NEWS</h3>
+        <p class="text-right"><a href="#">See all</a></p>
+      </div>
+      <div class="content">
+        <p class="date">12.04.09</p>
+        <h4>Disney's A Christmas Carol</h4>
+        <p>&quot;Disney's A Christmas Carol,&quot; a multi-sensory thrill ride re-envisioned by Academy Award&reg;-winning filmmaker Robert Zemeckis, captures... </p>
+        <a href="#">Read more</a> </div>
+      <div class="content">
+        <p class="date">11.04.09</p>
+        <h4>Where the Wild Things Are</h4>
+        <p>Innovative director Spike Jonze collaborates with celebrated author Maurice Sendak to bring one of the most beloved books of all time to the big screen in &quot;Where the Wild Things Are,&quot;...</p>
+        <a href="#">Read more</a> </div>
+      <div class="content">
+        <p class="date">10.04.09</p>
+        <h4>The Box</h4>
+        <p>Norma and Arthur Lewis are a suburban couple with a young child who receive an anonymous gift bearing fatal and irrevocable consequences.</p>
+        <a href="#">Read more</a> </div>
+    </div>
+    <div id="coming">
+      <div class="head">
+        <h3>COMING SOON<strong>!</strong></h3>
+        <p class="text-right"><a href="#">See all</a></p>
+      </div>
+      <div class="content">
+        <h4>John Wick: Chapter 3 - Parabellum</h4>
+        <a href="#"><img src="css/images/coming-soon1.jpg" alt="" /></a>
+        <p>Super-Assassin John Wick is on the run after killing a member of the international assassin's guild, and with a $14 million price tag on his head - he is the target of hit men and women everywhere...</p>
+        <a href="#">Read more</a> </div>
+      <div class="cl">&nbsp;</div>
+      <div class="content">
+        <h4>Aladdin</h4>
+        <a href="#"><img src="css/images/coming-soon2.jpg" alt="" /></a>
+        <p>A kindhearted Arabian street urchin and a power-hungry Grand Vizier vie for a magic lamp that has the power to make the deepest wishes come true...</p>
+        <a href="#">Read more</a> </div>
+    </div>
+    <div class="cl">&nbsp;</div>
+  </div>
+  <div id="footer">
+    <p class="lf">Copyright &copy; 2019 <a href="#">SiteName</a> - All Rights Reserved</p>
+    <p class="rf">Design by <a href="http://chocotemplates.com/">A+</a></p>
+    <div style="clear:both;"></div>
+  </div>
+</div>
+<!-- END PAGE SOURCE -->
+</body>
+</html>
